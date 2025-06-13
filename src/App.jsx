@@ -45,6 +45,7 @@ function App() {
       <TaskList tasks={tasks} onDelete={deleteTask} onUpdate={updateTask} />
       <footer className="footer-right">
         Made by Vishal Pargai
+        {/* my name */}
       </footer>
     </div>
   );
