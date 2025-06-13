@@ -1,0 +1,170 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #111;
+  transition: all 0.3s ease;
+}
+
+.App {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.dark-toggle {
+  padding: 8px 16px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dark-toggle:hover {
+  background-color: #303f9f;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.delete {
+  border: 1px solid red;
+  color: red;
+  background-color: transparent;
+}
+
+button.delete:hover {
+  background-color: #ffe5e5;
+}
+
+button.save {
+  border: 1px solid green;
+  color: green;
+  background-color: transparent;
+}
+
+button.save:hover {
+  background-color: #e6ffe6;
+}
+
+button.cancel {
+  border: 1px solid #999;
+  color: #333;
+  background-color: transparent;
+}
+
+button.cancel:hover {
+  background-color: #f1f1f1;
+}
+
+.task {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.task h3 {
+  margin: 0 0 4px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Dark Mode Styles */
+.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark input,
+.dark textarea {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.dark button {
+  background-color: #2a2a2a;
+  color: #fff;
+  border-color: #555;
+}
+
+.dark button.delete {
+  color: #ff6b6b;
+  border-color: #ff6b6b;
+}
+
+.dark button.save {
+  color: #76ff03;
+  border-color: #76ff03;
+}
+
+.dark button.cancel {
+  color: #ddd;
+  border-color: #777;
+}
+
+.dark footer {
+  color: #aaa;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+
+.footer-right {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  font-weight: bold;
+  color: inherit;
+}
