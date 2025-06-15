@@ -1,4 +1,3 @@
-// components/TaskItem.jsx
 import React, { useState } from 'react';
 
 function TaskItem({ task, isEditing, onEdit, onCancel, onDelete, onSave }) {
